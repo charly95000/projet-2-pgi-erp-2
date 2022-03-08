@@ -1,5 +1,13 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body,ul{
     margin:0;
+}
+
+body{
+    background-color: #e3e3e3;
 }
 
 li{
@@ -9,7 +17,12 @@ li{
 a{
     text-decoration: none;
     padding:20px;
-    display:block
+    display:block;
+    color:#303F9F
+}
+
+i{
+    color:rgb(255, 116, 51)
 }
 
 ul{
@@ -27,7 +40,10 @@ nav{
 
 
 h1{
-    font-size:80px
+    font-size:80px;
+    font-family: cubic;
+    color: #303F9F;
+    padding-left: 20px;
 }
 
 header div{
@@ -75,7 +91,8 @@ main>section{
 
 img{
     width:50%;
-    height:auto
+    height:auto;
+    object-fit: contain;
 }
 
 #div{
@@ -85,8 +102,8 @@ h2{
     text-align:center
 }
 
-.impair{
-    background-color: #e3e3e3;
+.bg-white{
+    background-color: white;
 }
 
 #div div{
@@ -143,4 +160,9 @@ footer{
 footer a{
     display: inline;
     padding:0
+}
+
+@font-face{
+    src:url('../fonts/cubic.ttf');
+    font-family: "cubic";
 }
